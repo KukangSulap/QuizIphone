@@ -18,12 +18,15 @@ class AddTaskViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    @IBAction func backBtn(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func btnSaveTask(_ sender: Any) {
        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
         let nameTask = Task(context: context)
         nameTask.name_task = etNameTask.text
-        
         nameTask.day_task = etDay.text
         nameTask.des_task = etDescription.text
     

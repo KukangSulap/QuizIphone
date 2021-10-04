@@ -40,7 +40,11 @@
                                 <color key="backgroundColor" red="1" green="0.96397321859999996" blue="0.077739173999999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="detail" id="G8E-02-dWF">
-                                        <barButtonItem key="leftBarButtonItem" title="back" id="UrE-yt-uSc"/>
+                                        <barButtonItem key="leftBarButtonItem" title="back" id="UrE-yt-uSc">
+                                            <connections>
+                                                <action selector="backBtn:" destination="BYZ-38-t0r" id="CWt-K3-3dd"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="save" id="w4x-fM-T7z">
                                             <connections>
                                                 <action selector="btnSaveTask:" destination="BYZ-38-t0r" id="ym9-no-NLL"/>
