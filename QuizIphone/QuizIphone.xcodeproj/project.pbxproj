@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		862865651FA038FC008665E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862865641FA038FC008665E2 /* AppDelegate.swift */; };
-		862865671FA038FC008665E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862865661FA038FC008665E2 /* ViewController.swift */; };
 		8628656A1FA038FC008665E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862865681FA038FC008665E2 /* Main.storyboard */; };
 		8628656D1FA038FC008665E2 /* QuizIphone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8628656B1FA038FC008665E2 /* QuizIphone.xcdatamodeld */; };
 		8628656F1FA038FC008665E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8628656E1FA038FC008665E2 /* Assets.xcassets */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		862865611FA038FC008665E2 /* QuizIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862865641FA038FC008665E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		862865661FA038FC008665E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		862865691FA038FC008665E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8628656C1FA038FC008665E2 /* QuizIphone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuizIphone.xcdatamodel; sourceTree = "<group>"; };
 		8628656E1FA038FC008665E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				862865641FA038FC008665E2 /* AppDelegate.swift */,
-				862865661FA038FC008665E2 /* ViewController.swift */,
 				862865681FA038FC008665E2 /* Main.storyboard */,
 				8628656E1FA038FC008665E2 /* Assets.xcassets */,
 				862865951FA03DFA008665E2 /* AddTaskViewController.swift */,
@@ -273,7 +270,6 @@
 			files = (
 				862865981FA03EDE008665E2 /* NoteTableViewController.swift in Sources */,
 				8628659A1FA03F10008665E2 /* YouTableViewCell.swift in Sources */,
-				862865671FA038FC008665E2 /* ViewController.swift in Sources */,
 				862865961FA03DFA008665E2 /* AddTaskViewController.swift in Sources */,
 				862865651FA038FC008665E2 /* AppDelegate.swift in Sources */,
 				8628656D1FA038FC008665E2 /* QuizIphone.xcdatamodeld in Sources */,

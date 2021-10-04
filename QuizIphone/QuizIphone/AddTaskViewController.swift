@@ -13,10 +13,13 @@ class AddTaskViewController: UIViewController {
     @IBOutlet weak var etDescription: UITextField!
     @IBOutlet weak var etDay: UITextField!
     @IBOutlet weak var etNameTask: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func backBtn(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func btnSaveTask(_ sender: Any) {
@@ -24,10 +27,8 @@ class AddTaskViewController: UIViewController {
         
         let nameTask = Task(context: context)
         nameTask.name_task = etNameTask.text
-        
         nameTask.day_task = etDay.text
         nameTask.des_task = etDescription.text
-        
     
         if etNameTask.text == "" {
             
@@ -54,22 +55,6 @@ class AddTaskViewController: UIViewController {
             print("Data berhasil disimpan")
         }
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
 }
 
